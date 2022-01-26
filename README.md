@@ -5,7 +5,7 @@ Testando Markdown:
 Tabela:
 Nome|Idade|Nacionalidade
 ---|---|---|
-Tamires|27|Brasileira
+Tamires|28|Brasileira
 Jonathan|33|Brasileira
 Peter|28|Americana
 
