@@ -14,7 +14,7 @@ Peter|28|Americana
 ---
 
 Lista de Tarefas:
-- [ ] Concluir curso de Git
+- [x] Concluir curso de Git
 - [ ] Concluir curso de Python
 - [x] Concluir curso de ASP.net
 
