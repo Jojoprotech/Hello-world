@@ -1,0 +1,123 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled2.ipynb",
+      "provenance": [],
+      "collapsed_sections": [],
+      "authorship_tag": "ABX9TyP6syl7qFNgxADBJArjqh4b",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Jojoprotech/Hello-world/blob/main/encontrando%20vogais\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 2,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "HEjrKACT5BR0",
+        "outputId": "aa3e01a1-afad-444e-bc94-25248cd98b92"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Vogal 'e' encontrada, na posição 6\n",
+            "Vogal 'e' encontrada, na posição 13\n",
+            "Vogal 'e' encontrada, na posição 18\n",
+            "Vogal 'a' encontrada, na posição 45\n",
+            "Vogal 'a' encontrada, na posição 47\n",
+            "Vogal 'a' encontrada, na posição 53\n",
+            "Vogal 'a' encontrada, na posição 61\n",
+            "Vogal 'a' encontrada, na posição 67\n",
+            "Vogal 'a' encontrada, na posição 92\n",
+            "Vogal 'a' encontrada, na posição 99\n",
+            "Vogal 'e' encontrada, na posição 101\n",
+            "Vogal 'e' encontrada, na posição 105\n",
+            "Vogal 'a' encontrada, na posição 112\n",
+            "Vogal 'a' encontrada, na posição 114\n",
+            "Vogal 'e' encontrada, na posição 120\n",
+            "Vogal 'a' encontrada, na posição 123\n",
+            "Vogal 'a' encontrada, na posição 128\n",
+            "Vogal 'a' encontrada, na posição 131\n",
+            "Vogal 'e' encontrada, na posição 133\n",
+            "Vogal 'a' encontrada, na posição 136\n",
+            "Vogal 'e' encontrada, na posição 139\n",
+            "Vogal 'e' encontrada, na posição 142\n",
+            "Vogal 'e' encontrada, na posição 152\n",
+            "Vogal 'e' encontrada, na posição 157\n",
+            "Vogal 'e' encontrada, na posição 167\n",
+            "Vogal 'a' encontrada, na posição 169\n",
+            "Vogal 'e' encontrada, na posição 175\n",
+            "Vogal 'a' encontrada, na posição 191\n",
+            "Vogal 'a' encontrada, na posição 193\n",
+            "Vogal 'e' encontrada, na posição 203\n",
+            "Vogal 'a' encontrada, na posição 211\n",
+            "Vogal 'a' encontrada, na posição 218\n",
+            "Vogal 'e' encontrada, na posição 222\n",
+            "Vogal 'e' encontrada, na posição 229\n",
+            "Vogal 'e' encontrada, na posição 232\n",
+            "Vogal 'a' encontrada, na posição 236\n",
+            "Vogal 'e' encontrada, na posição 239\n",
+            "Vogal 'e' encontrada, na posição 254\n",
+            "Vogal 'a' encontrada, na posição 256\n",
+            "Vogal 'a' encontrada, na posição 259\n",
+            "Vogal 'a' encontrada, na posição 261\n",
+            "Vogal 'e' encontrada, na posição 268\n",
+            "Vogal 'a' encontrada, na posição 280\n",
+            "Vogal 'a' encontrada, na posição 282\n",
+            "Vogal 'a' encontrada, na posição 284\n",
+            "Vogal 'a' encontrada, na posição 291\n",
+            "Vogal 'a' encontrada, na posição 296\n",
+            "Vogal 'e' encontrada, na posição 299\n",
+            "Vogal 'a' encontrada, na posição 311\n",
+            "Vogal 'e' encontrada, na posição 325\n",
+            "Vogal 'e' encontrada, na posição 327\n",
+            "Vogal 'a' encontrada, na posição 330\n"
+          ]
+        }
+      ],
+      "source": [
+        "texto = \"\"\"\n",
+        "A inserção de comentários no código do programa é uma prática normal.\n",
+        "\n",
+        "Em função disso, toda linguagem de programação tem alguma maneira de permitir que comentários sejam inseridos nos programas.\n",
+        "\n",
+        "O objetivo é adicionar descrições em partes do código, seja para documentá-lo ou para adicionar uma descrição do algoritmo implementado (BANIN, p. 45, 2018).\"\n",
+        "\n",
+        "\"\"\"\n",
+        "\n",
+        "for i, c in enumerate(texto):\n",
+        "\n",
+        "    if c == 'a' or c == 'e':\n",
+        "\n",
+        "        print(f\"Vogal '{c}' encontrada, na posição {i}\")\n",
+        "\n",
+        "    else:\n",
+        "\n",
+        "        continue"
+      ]
+    }
+  ]
+}
