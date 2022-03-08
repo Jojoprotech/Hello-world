@@ -1,0 +1,91 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled1.ipynb",
+      "provenance": [],
+      "collapsed_sections": [],
+      "authorship_tag": "ABX9TyPhsXfuLldSe2TINIA6qwVS",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Jojoprotech/Hello-world/blob/main/control%20de%20repeticao\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Dr1LVLBwyAxc",
+        "outputId": "e4b24c77-d2ea-45df-e33b-5b110c2bef24"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Posição = 0, valor = G\n",
+            "Posição = 1, valor = u\n",
+            "Posição = 2, valor = i\n",
+            "Posição = 3, valor = d\n",
+            "Posição = 4, valor = o\n"
+          ]
+        }
+      ],
+      "source": [
+        "nome = \"Guido\"\n",
+        "\n",
+        "for i, c in enumerate(nome):\n",
+        "\n",
+        "    print(f\"Posição = {i}, valor = {c}\")\n",
+        "\n",
+        "# Exemplo de uso do break\n",
+        "\n",
+        "disciplina = \"Linguagem de programação\"\n",
+        "\n",
+        "for c in disciplina:\n",
+        "\n",
+        "    if c == 'a':\n",
+        "\n",
+        "        break\n",
+        "\n",
+        "    else:\n",
+        "\n",
+        "        print(c)\n",
+        "\n",
+        "# Exemplo de uso do continue\n",
+        "\n",
+        "disciplina = \"Linguagem de programação\"\n",
+        "\n",
+        "for c in disciplina:\n",
+        "\n",
+        "    if c == 'a':\n",
+        "\n",
+        "        continue\n",
+        "\n",
+        "    else:\n",
+        "\n",
+        "        print(c)"
+      ]
+    }
+  ]
+}
