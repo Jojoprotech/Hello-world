@@ -1,0 +1,64 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled4.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyMNwljWNP1L3f/JgojVSgpo",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Jojoprotech/Hello-world/blob/main/lista%20de%20vogais%20python\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "N2l2bebtpX6o",
+        "outputId": "b0ecd410-d839-410f-9f3c-9e4c978288b7"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Posição = 0, valor = a\n",
+            "Posição = 1, valor = e\n",
+            "Posição = 2, valor = i\n",
+            "Posição = 3, valor = o\n",
+            "Posição = 4, valor = u\n"
+          ]
+        }
+      ],
+      "source": [
+        "vogais = ['a', 'e', 'i', 'o', 'u'] # também poderia ter sido criada usando aspas duplas\n",
+        "\n",
+        " \n",
+        "\n",
+        "for vogal in vogais:\n",
+        "\n",
+        "    print (f'Posição = {vogais.index(vogal)}, valor = {vogal}')"
+      ]
+    }
+  ]
+}
