@@ -1,0 +1,89 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "python1Ampli.ipynb",
+      "provenance": [],
+      "collapsed_sections": [],
+      "authorship_tag": "ABX9TyMNEDSUNBksBBcKV0EZvSbI",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Jojoprotech/Hello-world/blob/main/funcao%20de%20strings\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 6,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "V-okh1W_FUGy",
+        "outputId": "a72f1dba-15d6-40e9-c65f-d970684bd8e7"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Tamanho do texto = 353\n",
+            "Tamanho da lista de palavras = 58\n",
+            "Quantidade de vezes que string ou strings aparecem = 4\n",
+            "operadores de string  python oferece operadores para processar texto ou seja valores de string  assim como os números as strings podem ser comparadas usando operadores de comparação:  == != < > e assim por diante  o operador == por exemplo retorna true se as strings nos dois lados do operador tiverem o mesmo valor perkovic p 23 2016  \n"
+          ]
+        }
+      ],
+      "source": [
+        "texto = \"\"\"Operadores de String\n",
+        "\n",
+        "Python oferece operadores para processar texto (ou seja, valores de string).\n",
+        "\n",
+        "Assim como os números, as strings podem ser comparadas usando operadores de comparação:\n",
+        "\n",
+        "==, !=, <, > e assim por diante.\n",
+        "\n",
+        "O operador ==, por exemplo, retorna True se as strings nos dois lados do operador tiverem o mesmo valor (Perkovic, p. 23, 2016).\n",
+        "\n",
+        "\"\"\"\n",
+        "\n",
+        "print(f\"Tamanho do texto = {len(texto)}\")\n",
+        "\n",
+        "texto = texto.lower()\n",
+        "\n",
+        "texto = texto.replace(\",\", \"\").replace(\".\", \"\").replace(\"(\", \"\").replace(\")\", \"\").replace(\"\\n\", \" \")\n",
+        "\n",
+        "\n",
+        "lista_palavras = texto.split()\n",
+        "\n",
+        "print(f\"Tamanho da lista de palavras = {len(lista_palavras)}\")\n",
+        "\n",
+        " \n",
+        "\n",
+        "total = lista_palavras.count(\"string\") + lista_palavras.count(\"strings\")\n",
+        "\n",
+        " \n",
+        "\n",
+        "print(f\"Quantidade de vezes que string ou strings aparecem = {total}\")\n",
+        "print(texto)\n",
+        "\n"
+      ]
+    }
+  ]
+}
