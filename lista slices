@@ -1,0 +1,106 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled4.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyMxN6KWyocJeLZKFcgldZ0x",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Jojoprotech/Hello-world/blob/main/lista%20slices\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 3,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "N2l2bebtpX6o",
+        "outputId": "6ea6d294-19ca-4f36-f8d2-1d1f8d60ceaa"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Tamanho da lista = 6\n",
+            "Posição = 0,\t valor = Python -----------------> tipo individual = <class 'str'>\n",
+            "Posição = 1,\t valor = 30.61 -----------------> tipo individual = <class 'float'>\n",
+            "Posição = 2,\t valor = Java -----------------> tipo individual = <class 'str'>\n",
+            "Posição = 3,\t valor = 51 -----------------> tipo individual = <class 'int'>\n",
+            "Posição = 4,\t valor = ['a', 'b', 20] -----------------> tipo individual = <class 'list'>\n",
+            "Posição = 5,\t valor = maça -----------------> tipo individual = <class 'str'>\n",
+            "\n",
+            "Exemplos de slices:\n",
+            "\n",
+            "lista[1] =  30.61\n",
+            "lista[0:2] =  ['Python', 30.61]\n",
+            "lista[:2] =  ['Python', 30.61]\n",
+            "lista[3:5] =  [51, ['a', 'b', 20]]\n",
+            "lista[3:6] =  [51, ['a', 'b', 20], 'maça']\n",
+            "lista[3:] =  [51, ['a', 'b', 20], 'maça']\n",
+            "lista[-2] =  ['a', 'b', 20]\n",
+            "lista[-1] =  maça\n",
+            "lista[4][1] =  b\n"
+          ]
+        }
+      ],
+      "source": [
+        "lista = ['Python', 30.61, \"Java\", 51 , ['a', 'b', 20], \"maça\"]\n",
+        "\n",
+        " \n",
+        "\n",
+        "print(f\"Tamanho da lista = {len(lista)}\")\n",
+        "\n",
+        " \n",
+        "\n",
+        "for i, item in enumerate(lista):\n",
+        "\n",
+        "    print(f\"Posição = {i},\\t valor = {item} -----------------> tipo individual = {type(item)}\")\n",
+        "\n",
+        " \n",
+        "\n",
+        "print(\"\\nExemplos de slices:\\n\")\n",
+        "\n",
+        " \n",
+        "\n",
+        "print(\"lista[1] = \", lista[1])\n",
+        "\n",
+        "print(\"lista[0:2] = \", lista[0:2])\n",
+        "\n",
+        "print(\"lista[:2] = \", lista[:2])\n",
+        "\n",
+        "print(\"lista[3:5] = \", lista[3:5])\n",
+        "\n",
+        "print(\"lista[3:6] = \", lista[3:6])\n",
+        "\n",
+        "print(\"lista[3:] = \", lista[3:])\n",
+        "\n",
+        "print(\"lista[-2] = \", lista[-2])\n",
+        "\n",
+        "print(\"lista[-1] = \", lista[-1])\n",
+        "\n",
+        "print(\"lista[4][1] = \", lista[4][1])"
+      ]
+    }
+  ]
+}
