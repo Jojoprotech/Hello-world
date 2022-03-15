@@ -1,0 +1,111 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled5.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyMx4kmLSY/enB0isZdnMThb",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Jojoprotech/Hello-world/blob/main/set()%20de%20componentes%20com%20defeito\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ECB-kClt0OBF",
+        "outputId": "44901ac3-2019-4f2c-aef8-d2c6c8673240"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Foram verificados 23 componentes.\n",
+            "\n",
+            "4 componentes apresentaram defeito.\n",
+            "\n",
+            "Os componentes que podem ser vendidos são:\n",
+            "hub\n",
+            "memória ram\n",
+            "caixas de som\n",
+            "placa de vídeo\n",
+            "placa de captura\n",
+            "microfone\n",
+            "impressora\n",
+            "cooler\n",
+            "webcam\n",
+            "dissipador de calor\n",
+            "teclado\n",
+            "modem\n",
+            "gabinete\n",
+            "mouse\n",
+            "placa mãe\n",
+            "estabilizador\n",
+            "no-break\n",
+            "joystick\n",
+            "cpu\n"
+          ]
+        }
+      ],
+      "source": [
+        "def create_report():\n",
+        "\n",
+        "    componentes_verificados = set(['caixas de som', 'cooler', 'dissipador de calor', 'cpu', 'hd', 'estabilizador', 'gabinete', 'hub', 'impressora', 'joystick', 'memória ram', 'microfone', 'modem', 'monitor', 'mouse', 'no-break', 'placa de captura', 'placa de som', 'placa de vídeo', 'placa mãe', 'scanner', 'teclado', 'webcam'])\n",
+        "\n",
+        "    componentes_com_defeito = set(['hd', 'monitor', 'placa de som', 'scanner'])\n",
+        "\n",
+        "    \n",
+        "\n",
+        "    qtde_componentes_verificados = len(componentes_verificados)\n",
+        "\n",
+        "    qtde_componentes_com_defeito = len(componentes_com_defeito)\n",
+        "\n",
+        "    \n",
+        "\n",
+        "    componentes_ok = componentes_verificados.difference(componentes_com_defeito)\n",
+        "\n",
+        "    \n",
+        "\n",
+        "    print(f\"Foram verificados {qtde_componentes_verificados} componentes.\\n\")\n",
+        "\n",
+        "    print(f\"{qtde_componentes_com_defeito} componentes apresentaram defeito.\\n\")\n",
+        "\n",
+        "    \n",
+        "\n",
+        "    print(\"Os componentes que podem ser vendidos são:\")\n",
+        "\n",
+        "    for item in componentes_ok:\n",
+        "\n",
+        "        print(item)\n",
+        "\n",
+        " \n",
+        "\n",
+        " \n",
+        "\n",
+        "create_report()"
+      ]
+    }
+  ]
+}
